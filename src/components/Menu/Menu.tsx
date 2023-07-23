@@ -29,7 +29,7 @@ const Menu: React.FC = () => {
           <h1 className="font-bold uppercase text-center text-lg tracking-wide hidden xl:block">
             To-do App
           </h1>
-          <div className="h-8 w-8 ml-2">
+          <div className="h-8 w-8 ml-2 dark:fill-gray-400">
             <Note />
           </div>
         </div>

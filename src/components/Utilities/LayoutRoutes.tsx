@@ -60,7 +60,7 @@ const LayoutRoutes: React.FC<Props> = ({ title, tasks }) => {
                }`}
           >
             <span>
-              <Plus className="w-6 h-6 fill-gray-400 dark:fill-gray-500" />
+              <Plus className="w-6 h-6 fill-gray-400 dark:fill-gray-500 mr-2" />
             </span>
             <span> Add new task</span>
           </button>
