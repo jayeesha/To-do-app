@@ -5,9 +5,9 @@ const useDate = (date: string): string => {
   const day: number = fullDate.getDate();
 
   const dateFormated: string =
-    month.toString().padStart(2, "0") +
-    "/" +
     day.toString().padStart(2, "0") +
+    "/" +
+    month.toString().padStart(2, "0") +
     "/" +
     year;
 

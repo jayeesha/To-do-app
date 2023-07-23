@@ -5,6 +5,7 @@ import { modalActions } from "../../store/Modal.store";
 import useSortTasks from "../hooks/useSortTasks";
 import ButtonsSort from "../TasksSection/ButtonsSort";
 import TaskItem from "../TasksSection/TaskItem/TaskItem";
+import { ReactComponent as Plus } from "../../assets/plus-solid.svg";
 
 type Props = {
   title: string;
@@ -54,11 +55,14 @@ const LayoutRoutes: React.FC<Props> = ({ title, tasks }) => {
              text-slate-400 w-full rounded-lg
               border-dashed transition hover:bg-slate-300
                hover:text-slate-500
-               dark:border-slate-700 dark:hover:bg-slate-800 dark:hover:text-slate-300 ${
+               dark:border-slate-700 dark:hover:bg-slate-800 dark:hover:text-slate-300 flex items-center justify-center ${
                  isListInView1 ? "h-20 sm:h-32" : "h-52 sm:h-64"
                }`}
           >
-            Add new task
+            <span>
+              <Plus className="w-6 h-6 fill-gray-400 dark:fill-gray-500" />
+            </span>
+            <span> Add new task</span>
           </button>
         </li>
       </ul>

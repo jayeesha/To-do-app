@@ -27,12 +27,12 @@ The project mainly aimed to put into practice knowledge of TypeScript, Tailwind,
 
 ## Demo
 
-You can access the project here:
+You can access the project here: https://to-do-app-jayeesha.netlify.app/
 
 Or run in your system:
 
 ```
-git clone
+git clone https://github.com/jayeesha/To-do-app.git
 cd tasks-app
 npm install
 npm start
